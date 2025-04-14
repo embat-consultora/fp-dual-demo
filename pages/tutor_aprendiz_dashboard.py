@@ -594,9 +594,11 @@ with st.container():
     st.header(dondeEstanMisAprendices)
     graficoHotel, tablaAprendicesHoy  = st.columns([1.6,1.4])
     rotacion = pd.DataFrame() 
+
     with graficoHotel:
         if active_candidates is not None and not active_candidates.empty:
             rotacionUnfiltered= getRotationInfo()
+
             rotacionUnfiltered[columnaEmailAprendiz] = rotacionUnfiltered[columnaEmailAprendiz].str.upper()
             active_candidates[columnaCorreoCandidato] = active_candidates[columnaCorreoCandidato].str.upper()
 

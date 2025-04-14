@@ -15,7 +15,7 @@ def run():
         layout="centered",
     )
 
-    st.image("./images/logoCreciendoJuntos.png", width=250)
+    st.image("./images/embat.png", width=250)
 
 if __name__ == "__main__":
     run()

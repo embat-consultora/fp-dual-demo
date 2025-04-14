@@ -182,6 +182,4 @@ with st.container():
     # Find the event details
         details_placeholder.markdown(f"**Evento:** {selected_date['eventClick']['event']['title']}\n**Dia:** {selected_date['eventClick']['event']['start']}")
 
-st.subheader("Agenda")
-crearAgenda()
 
