@@ -14,10 +14,10 @@ with open("cred.json") as f:
 make_sidebar()
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-     st.image("./images/logoCreciendoJuntos.png")
+     st.image("./images/embat.png")
 
 
-st.title("Bienvenido a FP Dual - Iberostar")
+st.title("Bienvenido a FP Dual - DEMO")
 
 user_dict = {user['username']: user for user in credentials['users']}
 username = st.text_input("Email",placeholder="Ingrese email")
