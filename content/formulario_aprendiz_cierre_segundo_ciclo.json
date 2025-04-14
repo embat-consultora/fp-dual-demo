@@ -1,0 +1,28 @@
+{
+    "text_form": {
+      "title": "Formulario de Cierre: 2° Ciclo",
+      "description":"FELICITACIONES!!! Has finalizado esta etapa con nosotros y queremos saber cómo ha sido tu experiencia. Nos interesa conocer lo que te ha gustado, lo que cambiarías, y cómo has vivido este tiempo en el programa. ¡Tu feedback es clave para seguir creciendo juntos!",
+      "cierre":"Felicitaciones por todo tu esfuerzo y dedicación durante este 2do ciclo!. Tu feedback nos ayudará a mejorar y a seguir creciendo juntos. Te deseamos todo lo mejor!",
+      "subtitles": ["Tu Experiencia en el Programa","Experiencia del Cliente","Sostenibilidad","Tus Aportes y Recomendaciones"],
+      "questions": [
+        {"id": "q1", "question": "Email:", "email":true},
+        {"id": "q2", "question": "Del 1 al 4, ¿Cómo te has sentido en este 2° ciclo?","slider":"1,5"},
+        {"id": "q3", "question": "¿Te sentiste bien acompañado/a por tu Tutor/a?","options": ["Sí, estuvieron súper presentes y me ayudaron en todo", "Sí, aunque me gustaría haber tenido más apoyo", "No tanto, tuve que resolver varias cosas por mi cuenta"]},
+        {"id": "q4", "question": "Del 1 al 4, ¿Cuánto te gustaría seguir formando parte de nuestro equipo al finalizar el programa?","slider":"1,5"},
+        {"id": "q5", "question": "En qué áreas del hotel te gustaría seguir creciendo y desarrollandote?:"},
+        
+        {"id": "q6", "question": "En cuanto a la Excelencia en la Atención al Cliente, ¿sentiste que pudiste aportar valor?","options": ["Sí, propuse ideas nuevas y me sentí útil", "Un poco, pero creo que puedo mejorar en esta área", "No mucho, me costó involucrarme en ese aspecto"]},
+        {"id": "q7", "question": "¿Alguna idea o recomendación sobre la Experiencia del Cliente que quieras compartir para que podamos seguir mejorando? ¡Valoramos mucho tu aporte!"},
+
+        {"id": "q8", "question": "¿Pudiste aplicar lo que aprendiste sobre sostenibilidad en las áreas que recorriste?","options": ["Sí, y me sentí muy involucrado/a", "Un poco, aunque creo que puedo hacer más", "No, no vi cómo aplicarlo en las tareas diarias"]},
+        {"id": "q9", "question": "¿Alguna idea o recomendación Sostenibilidad que quieras compartir para que podamos seguir mejorando? ¡Valoramos mucho tu aporte!"},
+
+        {"id": "q10", "question": "Del 1 al 10, qué tan probable es que recomiendes esta experiencia con nosotros","slider":"1,11"},
+        {"id": "q11", "question": "¿Hay algo de la gestión del hotel que crees que podríamos mejorar?"},
+        {"id": "q12", "question": "¿Qué es lo que más te gustó de este 2° ciclo?"},
+        {"id": "q13", "question": "¿Qué cambiarías del programa para mejorar tu experiencia o la de los próximos aprendices?"},
+
+        {"id": "q14", "question": "Del 1 al 4, ¿Qué tan útiles fueron las herramientas y el acompañamiento durante esta experiencia? Piensa en los emails de bienvenida, las reuniones de seguimiento, la información sobre el perfil de tu tutor/a, el onboarding a cada área.","slider":"1,5"}
+      ]
+    }
+}

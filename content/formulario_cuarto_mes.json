@@ -1,0 +1,15 @@
+{
+    "text_form": {
+      "title": "Formulario del 4° Mes",
+      "description":"¡Ya llevas 4 meses con nosotros! Es momento de hacer una pausa, reflexionar y CELEBRAR TODO LO QUE HAS LOGRADO! Estamos súper curiosos por saber cómo te va y qué podemos seguir mejorando juntos.",
+      "cierre":"¡Genial! Nos encanta saber cómo vas, y estamos emocionados de seguir acompañándote en este viaje de crecimiento. ¡A por más!",
+      "questions": [
+        {"id": "q1", "question": "Email:", "email":true},
+        {"id": "q2", "question": "Del 1 al 4, ¿Cómo valorarías tu experiencia en el programa hasta ahora? ","slider":"1,5"},
+        {"id": "q3", "question": "Del 1 al 4, ¿Cómo valorarías lo que has aprendido desde que empezaste?","slider":"1,5"},
+        {"id": "q4", "question": "Del 1 al 4, ¿Te has sentido acompañado/a en los desafíos que has enfrentado?","slider":"1,5"},
+        {"id": "q5", "question": "¿Sientes que la comunicación con tu tutor/a te está ayudando en tu aprendizaje?","options": [" Sí, tenemos buena comunicación, y eso me ayuda mucho en mi aprendizaje.", "Sí, aunque podríamos reunirnos un poco más para resolver dudas.", "A veces me gustaría tener más orientación en momentos clave"]},
+        {"id": "q6", "question": "¿Qué ha sido lo más desafiante de estos meses?"}
+      ]
+    }
+}

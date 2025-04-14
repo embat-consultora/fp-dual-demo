@@ -1,0 +1,19 @@
+{
+    "text_form": {
+      "title": "Para Tu Aprendiz: Un Poco Sobre Ti",
+      "description":"¡Hola! Ya quedan pocos días para iniciar este programa con nuestros aprendices. Por eso queremos compartir un poco de ti con tu aprendiz para que te vaya conociendo. Aquí van algunas preguntas para empezar ",
+      "cierre":"¡¡Gracias por compartir un pedacito de ti con tu aprendiz. Estamos seguros de que esta experiencia será única, y nos encanta que formes parte de ella. ¡Nos vemos pronto para empezar juntos este camino de aprendizaje en equipo!",
+      "questions": [
+        {"id": "q1", "question": "Nombre Completo:"},
+        {"id": "q2", "question": "Email:"},
+        {"id": "q3", "question": "Rol + Departamento:"},
+        {"id": "q4", "question": "Tiempo en Iberostar :"},
+        {"id": "q5", "question": "Algo curioso sobre ti (¡puede ser cualquier cosa!)"},
+        {"id": "q6", "question": "¿Cuáles son tus hobbies o actividades favoritas fuera del trabajo?"},
+        
+        {"id": "q7", "question": "¿Qué es lo que más disfrutas de trabajar en Iberostar?"},
+        {"id": "q8", "question": "¿Cuál de todos los destinos de Iberostar es tu favorito?"},
+        {"id": "q9", "question": "¿Qué esperas de este programa y de tu rol como Tutor/a?"}
+      ]
+    }
+}

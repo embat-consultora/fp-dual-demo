@@ -1,0 +1,17 @@
+{
+    "text_form": {
+      "title": "Formulario del 1° Mes",
+      "description":"¡Hola! Ya llevas un mes con nosotros, ¿qué tal te has sentido? Queremos saber cómo ha sido tu experiencia hasta ahora, para seguir mejorando y acompañarte en todo este recorrido.",
+      "cierre":"¡Gracias por tu feedback! Queremos que esta experiencia siga siendo increíble para ti, No dudes en contactar con tu tutor/a si tienes ideas o propuestas que sugerir!",
+      "questions": [
+        {"id": "q1", "question": "Email:", "email":true},
+        {"id": "q2", "question": "¿Cómo te has sentido en este primer mes?", "options": ["Súper bien", "Bien", "Un poco perdido/a", "No me sentí cómodo/a"]},
+        {"id": "q3", "question": "Del 1 al 4, ¿Te has sentido bien recibido/a por el equipo en las áreas donde has trabajado?","slider":"1,5"},
+        {"id": "q4", "question": "Del 1 al 4, ¿Las tareas que has realizado hasta ahora se alinean con lo que esperabas aprender?","slider":"1,5"},
+        {"id": "q5", "question": "Del 1 al 4, ¿Estas pudiendo aplicar lo que vas aprendiendo en el Centro Educativo en esta parte práctica de tu aprendizaje?","slider":"1,5"},
+        {"id": "q6", "question": "Del 1 al 4, ¿Cómo te has sentido con las reuniones de seguimiento con tu tutor/a?","slider":"1,5"},
+        {"id": "q7", "question": "En temas de Sostenibilidad, ¿has podido aplicar lo que has aprendido en las áreas que has recorrido?","options": ["Sí, y he podido aportar ideas nuevas", "Un poco, pero me gustaría profundizar para involucrarme", "No, no he visto cómo aplicarlo, me gustaria que me expliquen de nuevo"]},
+        {"id": "q8", "question": "En temas de Experiencia del Cliente, ¿Has podido apcortar ideas para mejorar la atención al cliente en las áreas que has recorrido?","options": ["Sí, aporté ideas nuevas, siempre estoy muy atento", "Un poco, me gustaría profundizar más para poder mejorar la Experiencia del cliente.", "No, no he podido estar atento a la Experiencia del cliente, me gustaría verlo con mi tutor de qué manera puedo abordarlo."]}
+      ]
+    }
+}

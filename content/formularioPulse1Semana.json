@@ -1,0 +1,15 @@
+{
+    "text_form": {
+      "title": "Formulario 1º semana",
+      "description":"¡Hola! Ahora que ya llevas unos días en el programa, queremos saber cómo ha sido esta primera semana con nosotros!",
+      "cierre":"¡Gracias por compartir! Te deseamos lo mejor para las próximas semanas! ¡Aprovechalas al máximo!",
+      "questions": [
+        {"id": "q1", "question": "Email:"},
+        {"id": "q2", "question": "¿Cómo te has sentido en esta primera semana en el programa?", "options": ["Genial 😊", "Bien 👍", "Regular 😐", "Me ha costado 😕"]},
+        {"id": "q3", "question": "¿La información/Herramientas (Información Hotel y del programa, Presentación Tutor) que te brindamos antes de empezar fue suficiente?", "options": ["Sí, me sirvió bastante", "Estuvo bien, pero podría haber sido más completa", "Me pareció que faltaba información"]},
+        {"id": "q4", "question": "¿Qué te hubiera gustado saber antes de empezar que no te contamos?"},
+        {"id": "q5", "question": "¿Sientes que has recibido el acompañamiento que necesitabas en tu primer semana?", "options": ["Sí, totalmente", "Más o menos", "No mucho"]},
+        {"id": "q6", "question": "Otro comentario"}
+      ]
+    }
+}

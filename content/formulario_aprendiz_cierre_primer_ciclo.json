@@ -1,0 +1,25 @@
+{
+    "text_form": {
+      "title": "Formulario de Cierre de Ciclo - Aprendiz",
+      "description":"¡Wow! 🎉 Ya terminaste tu primer ciclo con nosotros y queremos saber cómo ha sido tu experiencia. Nos interesa conocer lo que te ha gustado, lo que cambiarías, y cómo has vivido este tiempo en el programa. ¡Tu feedback es clave para seguir creciendo juntos!",
+      "cierre":"¡Gracias por todo tu esfuerzo y dedicación durante este ciclo! 💪😊 Tu feedback nos ayudará a mejorar y a seguir creciendo juntos. ¡Esperamos verte en el próximo ciclo con más ideas y energía!",
+      "subtitles": ["Tu Experiencia en este primer ciclo","Experiencia del Cliente","Sostenibilidad","Tus Aportes y Recomendaciones"],
+      "questions": [
+        {"id": "q1", "question": "Email:", "email":true},
+        {"id": "q2", "question": "Del 1 al 4, ¿Cómo te has sentido en este primer ciclo?","slider":"1,5"},
+        {"id": "q3", "question": "¿Te sentiste bien acompañado/a por tu Tutor/a?","options": [" Sí, estuvieron súper presentes", " Sí, aunque me gustaría haber tenido más apoyo", "Tuve que resolver varias cosas por mi cuenta"]},
+        {"id": "q4", "question": "¿Qué área te ha gustado más?:"},
+        {"id": "q5", "question": "Del 1 al 4, ¿Cuánto has podido aplicar lo del instituto en el hotel?","slider":"1,5"},
+        {"id": "q6", "question": "Del 1 al 4, ¿Cuánto te gustaría seguir formando parte de nuestro equipo al finalizar el programa?","slider":"1,5"},
+      
+        {"id": "q7", "question": "En cuanto a la Experiencia del Cliente, ¿sentiste que pudiste aportar valor?","options": ["Sí, propuse ideas nuevas y me sentí útil", "Un poco, pero creo que puedo mejorar en esta área", "No mucho, me costó involucrarme en ese aspecto"]},
+        {"id": "q8", "question": "¿Alguna idea o recomendación sobre la Experiencia del Cliente que quieras compartir para que podamos seguir mejorando? ¡Valoramos mucho tu aporte!"},
+
+        {"id": "q9", "question": "¿Pudiste aplicar lo que aprendiste sobre sostenibilidad en las áreas que recorriste?","options": ["Sí, y me sentí muy involucrado/a", "Un poco, aunque creo que puedo hacer más", "No, no vi cómo aplicarlo en las tareas diarias"]},
+        {"id": "q10", "question": "¿Alguna idea o recomendación Sostenibilidad que quieras compartir para que podamos seguir mejorando? ¡Valoramos mucho tu aporte!"},
+
+        {"id": "q11", "question": "¿Qué es lo que más te gustó de este ciclo?"},
+        {"id": "q12", "question": "¿Qué cambiarías del programa para mejorar tu experiencia o la de los próximos aprendices?"}
+      ]
+    }
+}
