@@ -103,9 +103,9 @@ formsLinks = ["Primera Semana", "https://fpdual-demo.streamlit.app/pulse_primera
 
 
 #admin dashboard
-aprendiz_looker_url = "https://lookerstudio.google.com/embed/reporting/a240d7c8-63aa-405e-b320-4aff88c57547/page/XQXmD"
-presupuesto_looker_url="https://lookerstudio.google.com/embed/reporting/a98142e9-3679-4dc5-b4c7-a201853d976f/page/p_fq1n4ahhjd"
-aprendiz_2025_looker_url="https://lookerstudio.google.com/embed/reporting/8da6524c-03a4-4f30-9998-d2087e9c115e/page/XQXmD"
+aprendiz_looker_url = "https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
+presupuesto_looker_url="https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
+aprendiz_2025_looker_url="https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
 
 #forms
 folderIdAprendriz="1ipDPOh8RhBMQF6SpA9nKglcvavZKHh-E"
