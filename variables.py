@@ -87,10 +87,10 @@ tutorDashboard=vars.tutorDashboard
 aprendizDashboard=vars.aprendizDashaboard
 adminRecursosTutorDashboard=vars.adminRecursosTutorDashboard
 adminTutorDashboard=vars.adminTutorDashboard
-preOnboardingLinks = ["Guía Exprés!", "https://drive.google.com/file/d/1H3kedcqZrhP_LpwXTcKco2s3Ah1Or41a/view", "Rol Tutor y Rol Aprendiz","https://drive.google.com/file/d/1eGZOMTg3xmEsAwivsvvQFrl2QQhcX32D/view"]
-onboardingLinks = ["Manual 1: Claves para los 'Primeros días'", "https://drive.google.com/file/d/1669aN0jlGRAs-WEI2PsoBbY1LmcvYZDG/view?usp=drive_link"]
-seguimientoLinks = ["Manual 2: Claves para el 'Cambio de área'", "https://drive.google.com/file/d/1PvP_YfgIVrN68C66I_CZqYIoLuabJRQa/view?usp=drive_link","Manual 3: Claves para el 'Seguimiento' (Tutor/a c/Aprendiz)","https://drive.google.com/file/d/1HqqPLTFyse3KHheTJAbv0-g4v8J2MWVR/view?usp=drive_link"]
-cierreLinks = ["Manual 4: Claves para el 'Cierre 1º ciclo y 2° Ciclo'", "https://drive.google.com/file/d/1vlGd4VSIik8NxOLf162Cqi5dXW18S7ec/view?usp=drive_link"]
+preOnboardingLinks = ["Guía Exprés!", "https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing", "Rol Tutor y Rol Aprendiz","https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing"]
+onboardingLinks = ["Manual 1: Claves para los 'Primeros días'", "https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing"]
+seguimientoLinks = ["Manual 2: Claves para el 'Cambio de área'", "https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing","Manual 3: Claves para el 'Seguimiento' (Tutor/a c/Aprendiz)","https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing"]
+cierreLinks = ["Manual 4: Claves para el 'Cierre 1º ciclo y 2° Ciclo'", "https://drive.google.com/file/d/1pYGXJ_WRE3skOOd_tZR3Q91ofG2B0vzQ/view?usp=sharing"]
 formsLinks = ["Primera Semana", "https://fpdual-demo.streamlit.app/pulse_primera_semana",
 "Cambio Area","https://fpdual-demo.streamlit.app/formulario_cambio_area",
 "Primer Mes", "https://fpdual-demo.streamlit.app/formulario_primer_mes",
@@ -103,9 +103,9 @@ formsLinks = ["Primera Semana", "https://fpdual-demo.streamlit.app/pulse_primera
 
 
 #admin dashboard
-aprendiz_looker_url = "https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
-presupuesto_looker_url="https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
-aprendiz_2025_looker_url="https://lookerstudio.google.com/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63"
+aprendiz_looker_url = "https://lookerstudio.google.com/embed/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63/page/XQXmD"
+presupuesto_looker_url="https://lookerstudio.google.com/embed/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63/page/XQXmD"
+aprendiz_2025_looker_url="https://lookerstudio.google.com/embed/reporting/0007bb0d-c669-4d28-ba4d-77642dd4af63/page/XQXmD"
 
 #forms
 folderIdAprendriz="1ipDPOh8RhBMQF6SpA9nKglcvavZKHh-E"
