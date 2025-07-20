@@ -14,7 +14,7 @@ with open("cred.json") as f:
 make_sidebar()
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-     st.image("./images/embat.png")
+     st.image("./images/fp-conecta.png")
 
 
 st.title("Bienvenido a FP Dual - DEMO")
