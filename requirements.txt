@@ -18,4 +18,4 @@ streamlit-calendar
 streamlit_javascript
 pandasql
 streamlit_carousel
-kaleido
+kaleido<=0.2.1
