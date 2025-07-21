@@ -11,6 +11,12 @@
             "password": "admin123",
             "role": "tutor",
             "subUsername": []
+        },
+        {
+            "username": "usuario2@gmail.com",
+            "password": "admin123",
+            "role": "aprendiz",
+            "subUsername": []
         }
     ]        
 }

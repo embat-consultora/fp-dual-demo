@@ -50,5 +50,5 @@ if st.session_state.get("logged_in") and "redirect_to" in st.session_state:
         st.switch_page("pages/director_aprendiz_dashboard.py")
     elif role == 'tutor':
         st.switch_page("pages/tutor_recursos_dashboard.py")
-    elif role == 'superadmin':
-        st.switch_page("pages/setting.py")
+    elif role == 'aprendiz':
+        st.switch_page("pages/aprendiz_dashboard.py")

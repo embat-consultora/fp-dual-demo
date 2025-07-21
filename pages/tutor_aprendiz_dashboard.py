@@ -68,7 +68,12 @@ df = getInfo()
 df[topFilters[0]] = pd.to_datetime(df[topFilters[0]], format='%d/%m/%Y')
 df[topFilters[4]] = pd.to_datetime(df[topFilters[4]], format='%d/%m/%Y')
 active_candidates = df[df[columnStatus].str.upper() == 'ACTIVO']
-#Container Feedback
+# Inicializar estado
+if "comentarios_tutor" not in st.session_state:
+    st.session_state.comentarios_tutor = {row["CANDIDATOS"]: "" for _, row in df.iterrows()}
+
+if "mostrar_editor" not in st.session_state:
+    st.session_state.mostrar_editor = {row["CANDIDATOS"]: False for _, row in df.iterrows()}
 def getFeebackDetails():
     feedbacks = get_sheets(connectionFeedbacks, [worksheetPulse1Semana,worksheetCambioArea,worksheetFormulario1Mes,worksheetFormulario4Mes, worksheetFormularioAprendizCierre1Ciclo, worksheetFormularioAprendizCierre2Ciclo])
     return feedbacks
@@ -412,7 +417,32 @@ with st.container():
                             st.dataframe(getColumns(candidatos_feedback_inprogress,[columnaCandidatos, columnaCorreoCandidato, 'Feedback Respondido']))
                         else:
                             st.write(noDatosDisponibles)
-    
+st.divider() 
+
+df["NOTAS"] = df["NOTAS"].fillna("Sin nota previa.")
+
+st.subheader('**Comunicate con los aprendices**')
+tabs = st.tabs(df["CANDIDATOS"].tolist())
+for i, candidato in enumerate(df["CANDIDATOS"]):
+    with tabs[i]:
+        st.subheader(f"Departamento: {df.iloc[i]['POSICIÓN/DPT']}")
+
+        # Mostrar nota original (no editable)
+        st.markdown("**Nota del aprendiz:**")
+        st.info(df.iloc[i]["NOTAS"])
+
+        # Mostrar botón para nuevo comentario
+        if not st.session_state.mostrar_editor[candidato]:
+            if st.button(f"Nuevo comentario para {candidato}", key=f"btn_comentario_{candidato}"):
+                st.session_state.mostrar_editor[candidato] = True
+
+        # Mostrar text_area si se activó el botón
+        if st.session_state.mostrar_editor[candidato]:
+            comentario = st.text_area(f"Comentario del tutor para {candidato}:", key=f"respuesta_{candidato}")
+            if st.button(f"Guardar comentario de {candidato}", key=f"guardar_{candidato}"):
+                st.session_state.comentarios_tutor[candidato] = comentario
+                st.session_state.mostrar_editor[candidato] = False
+                st.success("Comentario guardado ✅")
 
 st.divider()
 with st.container():

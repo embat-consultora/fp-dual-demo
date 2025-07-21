@@ -50,8 +50,8 @@ loginMessage=vars.loginMessage
 loginDescription=vars.loginDescription
 noDatosDisponibles="No hay datos disponibles"
 
-page_icon="./images/icon.ico"
-companyIcon="./images/smallIcon.png"
+page_icon="./images/fp-conecta.png"
+companyIcon="./images/fp-conecta.png"
 title= vars.title
 
 #comunes
