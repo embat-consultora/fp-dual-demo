@@ -72,29 +72,19 @@ with stylable_container(
         }
         """,
 ):
-    tabs = st.tabs([tabPreOnboarding, tabOnboarding, tabSeguimiento, tabCierre,tabFeedback])
+    tabs = st.tabs(["Quienes somos?", "Onboarding","Links revelantes"])
 
 # Pre-Onboarding Tab
 with tabs[0]:
-    st.write("Links relevantes para preparación:")
+    st.write("Conoce la empresa")
     st.write(f"[{preOnboardingLinks[0]}]({preOnboardingLinks[1]})")
 # Onboarding Tab
 with tabs[1]:
-    st.write("Links relevantes para primeros días:")
-    st.write(f"[{onboardingLinks[0]}]({onboardingLinks[1]})")
-
-# Seguimiento Tab
-with tabs[2]:
-    st.write("Links relevantes para Seguimiento:")
-    st.write(f"[{seguimientoLinks[0]}]({seguimientoLinks[1]})")
-    st.write(f"[{seguimientoLinks[2]}]({seguimientoLinks[3]})")
-# Cierre Tab
-with tabs[3]:
-    st.write("Links relevantes para Cierre:")
-    st.write(f"[{cierreLinks[0]}]({cierreLinks[1]})")
+    st.write("Conoce a tu tutor/a:")
+    st.write("Email: maria@gmail.com")
+    st.write(f"[Perfil Maria](https://drive.google.com/file/d/1YmRwMGfMzSM9LxmCRCOPFypPROg1dUi9/view?usp=sharing)")
 # forms tab
-with tabs[4]:
-
+with tabs[2]:
     st.write("**Aprendiz:**")
     st.write(f"[{formsLinks[0]}]({formsLinks[1]})")
     st.write(f"[{formsLinks[2]}]({formsLinks[3]})")

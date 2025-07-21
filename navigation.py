@@ -62,7 +62,7 @@ def make_sidebar_admin():
         if st.session_state.get("logged_in", False):
             st.page_link("pages/admin_tutor_dashboard.py", label=adminTutorDashboard)
             st.page_link("pages/admin_recursos_tutor_dashboard.py", label=adminRecursosTutorDashboard)
-
+            st.page_link("pages/agenda_dc.py", label="Agenda")
             st.write("")
             st.write("")
 
