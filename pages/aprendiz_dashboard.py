@@ -78,6 +78,9 @@ with stylable_container(
 with tabs[0]:
     st.write("Conoce la empresa")
     st.write(f"[{preOnboardingLinks[0]}]({preOnboardingLinks[1]})")
+    st.write(f"[Nuestra Historia]({preOnboardingLinks[1]})")
+    st.write(f"[La Gente]({preOnboardingLinks[1]})")
+    st.write(f"[Hacia donde vamos]({preOnboardingLinks[1]})")
 # Onboarding Tab
 with tabs[1]:
     st.write("Conoce a tu tutor/a:")
