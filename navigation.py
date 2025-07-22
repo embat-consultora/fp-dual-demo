@@ -177,7 +177,7 @@ def make_sidebar_aprendiz():
         unsafe_allow_html=True
     )
         st.title("Menu")
-        st.subheader("Hola Usuario")
+        st.subheader("Hola Aprendiz!")
         st.write("")
         st.write("")
 
