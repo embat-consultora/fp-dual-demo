@@ -65,7 +65,7 @@ nota_actual = st.session_state.notas_por_depto.get(departamento_seleccionado, ""
 
 # Si el campo está vacío y el departamento es SSTT, asignar nota por defecto
 if nota_actual.strip() == "" and departamento_seleccionado == "SSTT":
-    nota_actual = "No tengo la documentacion necesariar. \n Tutor: Te enviaremos todo a tu email"
+    nota_actual = "No tengo la documentacion necesaria. \n Tutor: Te enviaremos todo a tu email"
 
 # Mostrar área de texto con ese valor
 nota = st.text_area(
