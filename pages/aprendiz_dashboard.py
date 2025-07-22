@@ -82,10 +82,11 @@ with tabs[0]:
 with tabs[1]:
     st.write("Conoce a tu tutor/a:")
     st.write("Email: maria@gmail.com")
+    st.write("Telefono Contacto: 6340345634")
     st.write(f"[Perfil Maria](https://drive.google.com/file/d/1YmRwMGfMzSM9LxmCRCOPFypPROg1dUi9/view?usp=sharing)")
 # forms tab
 with tabs[2]:
-    st.write("**Aprendiz:**")
+    st.write("**Formularios:**")
     st.write(f"[{formsLinks[0]}]({formsLinks[1]})")
     st.write(f"[{formsLinks[2]}]({formsLinks[3]})")
     st.write(f"[{formsLinks[4]}]({formsLinks[5]})")
@@ -94,7 +95,35 @@ with tabs[2]:
     st.write(f"[{formsLinks[10]}]({formsLinks[11]})")
 
 with st.container():
-    events = events
+    events = [
+  {
+    "start": "2025-07-10",
+    "title": "Inicio SSTT",
+    "backgroundColor": "#FECA1D"
+  },
+  {
+    "start": "2025-07-20",
+    "title": "Fin SSTT",
+    "backgroundColor": "#3AA597"
+  },
+  {
+    "start": "2025-07-21",
+    "title": "Inicio Cocina",
+    "backgroundColor": "#FECA1D"
+  },
+  {
+    "start": "2025-07-17",
+    "title": "Feedback Primera Semana - SSTT",
+    "backgroundColor": "#8D99AE"
+  },
+    {
+    "start": "2025-07-30",
+    "title": "Feedback Cambio Area - Cocina",
+    "backgroundColor": "#8D99AE"
+  }
+]
+
+
     today = datetime.today().strftime('%Y-%m-%d')
     calendar_options = {
         "headerToolbar": {
