@@ -106,7 +106,7 @@ with resources:
         st.write("Accede a los formularios del programa: los tuyos al cierre y los de tus aprendices durante el ciclo:")
         tutorForms, aprendizForms = st.columns(2)
         with aprendizForms:
-            st.write("**Aprendiz:**")
+            st.write("**Formularios:**")
             st.write(f"[{formsLinks[0]}]({formsLinks[1]})")
             st.write(f"[{formsLinks[2]}]({formsLinks[3]})")
             st.write(f"[{formsLinks[4]}]({formsLinks[5]})")
